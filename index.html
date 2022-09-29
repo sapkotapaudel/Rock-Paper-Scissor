@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="heading">
+        <div class="title">Rock Paper Scissor</div>
+        <div class="description">Everyone's favroutie classic game, now online!</div>
+        <hr>
+    </div>
+    
+
+    <div id="gameORResult">
+
+        <table >
+            <thead>
+                <tr>
+                    <td> Computer Choice <hr></td>
+                    <td> &nbsp;</td>
+                    <td> Your Choice <hr></td>
+                    <td>&nbsp;</td>
+                </tr>
+            </thead>
+            <tbody>
+                <td class="customerBox"><span id="computer-choice"></span></td>
+                <td class="scoreBox">
+                    Your Score: <span id="currentYourScore"></span><br>
+                    <br>
+                    Computer's Score: <span id="currentCompScore"></span> <br>
+                    <br>
+                    Moves Left: <span id="movesLeft"></span><br>
+                    <br>
+
+                </td>
+                <td class="userBox"><span id = "user-choice"></span></td>
+                <td >
+                    <button id="Rock">Rock</button>
+                    <button id="Paper">Paper</button>
+                    <button id="Scissor">Scissor</button>
+                </td>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">
+                        <div id="resultDesign">
+                            Result 
+                            <br> 
+                            <span id="result"></span>
+                        </div>
+                        
+                    </td>
+                </tr>
+                <tr>&nbsp;</tr>
+            </tfoot>
+        </table>
+
+    </div>
+
+    <div id="finalScore"></div>
+    <div id="reloadBtn"></div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
